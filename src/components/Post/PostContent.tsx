@@ -18,6 +18,7 @@ const MarkdownRenderer = styled.div`
     line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
+  
 
   // Apply Padding Attribute to All Elements
   p {
@@ -62,6 +63,7 @@ const MarkdownRenderer = styled.div`
     padding: 5px 15px;
     border-left: 2px solid #000000;
     font-weight: 800;
+    
   }
 
   // Adjust List Element Style

@@ -25,6 +25,11 @@ const defaultStyle = css`
     text-decoration: none;
     cursor: pointer;
   }
+
+  @font-face {
+    font-family: "강원교육현옥쌤";
+    src: url("../fonts/강원교육현옥샘.ttf");
+}
 `
 
 const GlobalStyle: FunctionComponent = function () {

@@ -9,6 +9,7 @@ const FooterWrapper = styled.footer`
   font-size: 15px;
   text-align: center;
   line-height: 1.5;
+  font-family: "EE_Diary.ttf";
 
   @media (max-width: 768px) {
     font-size: 13px;
