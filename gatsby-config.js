@@ -3,7 +3,7 @@ module.exports = {
     title: `무엇이든 뚝딱뚝딱 만드는 개발 블로그`,
     description: `신입 개발자는 무엇으로 사는가`,
     author: `@kimi`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`, //배포 후 변경하기
+    siteUrl: `https://kimi-blog.github.io/`, //배포 후 변경하기
   },
   plugins: [
     {
@@ -84,7 +84,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://my-website.com/>',
+        siteUrl: 'https://kimi-blog.github.io/',
         stripQueryString: true,
       },
     },
