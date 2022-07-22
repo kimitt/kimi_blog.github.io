@@ -50,20 +50,6 @@ const PostList: FunctionComponent<PostListProps> = function ({
   )
 
 
-  // const postListData = useMemo(
-  //   () =>
-  //     posts.filter(
-  //       ({
-  //         node: {
-  //           frontmatter: { categories },
-  //         },
-  //       }: PostListItemType) =>
-  //         selectedCategory !== 'All'
-  //           ? categories.includes(selectedCategory)
-  //           : true,
-  //     ),
-  //   [selectedCategory],
-  // )
 
   return (
     <PostListWrapper ref={containerRef}>

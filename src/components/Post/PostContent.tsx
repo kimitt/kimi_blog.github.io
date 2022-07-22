@@ -15,10 +15,11 @@ const MarkdownRenderer = styled.div`
   word-break: break-all;
 
     // Markdown Style
-    line-height: 1.8;
+  line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
-  
+  font-family: 'GangwonEduHyeonokT_OTFMediumA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff')
 
   // Apply Padding Attribute to All Elements
   p {
@@ -111,6 +112,7 @@ const MarkdownRenderer = styled.div`
 
     h1 {
       font-size: 23px;
+      
     }
 
     h2 {

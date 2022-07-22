@@ -43,12 +43,16 @@ const Title = styled.div`
   -webkit-box-orient: vertical;
   font-size: 20px;
   font-weight: 700;
+  font-family: 'KBIZHanmaumGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff')
 `
 
 const Date = styled.div`
   font-size: 14px;
   font-weight: 400;
   opacity: 0.7;
+  font-family: 'KBIZHanmaumGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff')
 `
 
 const Category = styled.div`
@@ -56,6 +60,8 @@ const Category = styled.div`
   flex-wrap: wrap;
   margin-top: 10px;
   margin: 10px -5px;
+  font-family: 'KBIZHanmaumGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff')
 `
 
 const CategoryItem = styled.div`
@@ -66,6 +72,8 @@ const CategoryItem = styled.div`
   font-size: 14px;
   font-weight: 700;
   color: white;
+  font-family: 'KBIZHanmaumGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff')
 `
 
 const Summary = styled.div`
@@ -79,6 +87,8 @@ const Summary = styled.div`
   -webkit-box-orient: vertical;
   font-size: 16px;
   opacity: 0.8;
+  font-family: '777Balsamtint';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Balsamtint.woff')
 `
 
 const PostItem: FunctionComponent<PostItemProps> = function ({

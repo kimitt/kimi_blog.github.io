@@ -4,13 +4,13 @@ import React, { FunctionComponent } from 'react'
 import { Global, css } from '@emotion/react'
 
 const defaultStyle = css`
-  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
-
+  @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff');
+ 
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'KBIZHanmaumGothic';
   }
 
   html,
@@ -25,11 +25,28 @@ const defaultStyle = css`
     text-decoration: none;
     cursor: pointer;
   }
+    //강원현옥샘
+    @font-face {
+    font-family: 'GangwonEduHyeonokT_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    //봉숭아틴트
+    @font-face {
+      font-family: '777Balsamtint';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Balsamtint.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    //KBIZ한마음고딕체
+    @font-face {
+      font-family: 'KBIZHanmaumGothic';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
 
-  @font-face {
-    font-family: "강원교육현옥쌤";
-    src: url("../fonts/강원교육현옥샘.ttf");
-}
 `
 
 const GlobalStyle: FunctionComponent = function () {
@@ -37,3 +54,6 @@ const GlobalStyle: FunctionComponent = function () {
 }
 
 export default GlobalStyle
+
+
+

@@ -9,7 +9,8 @@ const FooterWrapper = styled.footer`
   font-size: 15px;
   text-align: center;
   line-height: 1.5;
-  font-family: "EE_Diary.ttf";
+  font-family: 'KBIZHanmaumGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumGothic.woff');
 
   @media (max-width: 768px) {
     font-size: 13px;
