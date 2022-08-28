@@ -1,5 +1,5 @@
 ---
-date: '2020-08-28'
+date: '2022-08-28'
 title: '함수형 자바스크립트'
 categories: ['Javascript', 'Study']
 summary: '인프런:함수형 프로그래밍과 JavaScript ES6+ / 모던자바스크립트 Deep Dive'
