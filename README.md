@@ -1,4 +1,4 @@
-## 🚀 Kimi-BLOG (2차시도!!!!!!!!!!!!)
+## 🚀 Kimi-BLOG 
 
 **목적**
 
@@ -9,4 +9,5 @@ SKILLS
 - React
 - TypeScript
 - Gatsby
+- yarn
 ```

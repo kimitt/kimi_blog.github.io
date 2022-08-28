@@ -1,27 +1,35 @@
 ---
 date: '2020-08-28'
-title: 'Sunday'
-categories: ['Test']
-summary: '테스트가 성공하길 바란다!'
-thumbnail: './test.png'
+title: '함수형 자바스크립트'
+categories: ['Javascript', 'Study']
+summary: '인프런:함수형 프로그래밍과 JavaScript ES6+ / 모던자바스크립트 Deep Dive'
+thumbnail: './000030.JPG'
 ---
 
-### 1. Help Google Bot to Find My Contents
+### 함수형 자바스크립트 기본기
 
-구글에 SiteMap을 제출하여 사이트에 있는 파일로서 새 페이지나 변경된 페이지가 있을 때 이를 검색 엔진에 알려주도록 할 수 있다.
+# 평가 : 코드가 계산 되어 값을 만드는 것
+# 일급객체 
+  - 무명의 리터럴로 생성할 수 있다(런타임에 생성 가능)
+  - 변수나 자료구조(객체, 배열 등)에 저장
+  - 함수의 매개변수에 전달(인자)
+  - 함수의 반환값으로 사용(결과)
 
-SiteMap은 사이트에 있는 페이지, 동영상 및 기타 파일과 각 관계에 관한 정보를 제공하는 파일로, 검색 엔진은 이를 읽고 사이트를 더 지능적으로 크롤링 할 수 있게 된다.
+# 자바스크립트에서는 함수가 일급 = 함수를 값으로 다룰 수 있다.(조합성과 추상화의 도구)
 
-### 2. Use 'Robots.txt' File
+# 고차함수 : 함수를 값으로 다루는 함수
+  - 함수를 인자로 받아 실행하는 함수 
+  <script>
+    const apply1 = f => f(1);
+    const add2 = a => a + 2;
+    log(apply1(add2)); //3 => add2라는 함수를 받아서 apply1 안에서 실행
+    log(apply1(a => a-1)); //0 
+  </script>
 
-Robots.txt 파일은 검색 엔진에 어떤 페이지를 크롤링해도 되는지 알리는 파일로, 서버의 루트 디렉토리에 있어야 한다.
-
-과도한 Robots.txt 파일은 더 많은 방문자를 유도할 수 있는 정상적인 검색 엔진 크롤러의 접근을 막을 가능성이 있기 때문에 적절하게 설정해야 한다.
-
----
-
-## Source
-
-- SEO 기본 가이드
-
-  [<https://support.google.com/webmasters/answer/7451184?hl=ko&ref_topic=9460495>](https://support.google.com/webmasters/answer/7451184?hl=ko&ref_topic=9460495)
+  - 함수를 만들어 리턴하는 함수 (클로저를 만들어 리턴하는 함수)
+  <script>
+    const addMaker = a => b => a + b; // b => a + b 함수는 a를 기억하는 클로저 함수
+    const add10 = addMaker(10);
+    log(add10); // b => a + b
+    log(add10(5)); // 15
+  </script>
