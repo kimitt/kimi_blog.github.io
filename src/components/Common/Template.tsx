@@ -27,7 +27,7 @@ const Template: FunctionComponent<TemplateProps> = function ({
 }) {
   return (
     <Container>
-            <Helmet>
+      <Helmet>
         <title>{title}</title>
 
         <meta name="description" content={description} />
@@ -47,6 +47,11 @@ const Template: FunctionComponent<TemplateProps> = function ({
         <meta name="twitter:image" content={image} />
         <meta name="twitter:site" content="@kimi" />
         <meta name="twitter:creator" content="@kimi" />
+
+        <meta
+          name="google-site-verification"
+          content="VQ1ohgAEJzL-vr5W4paxX9NGrguHfyPneaCToELPD2o"
+        />
 
         <html lang="ko" />
       </Helmet>
